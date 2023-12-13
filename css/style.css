@@ -15,5 +15,54 @@
 /* ******************************** */
 
 /* Colores */
+:root {
+
+  --color-fondo: #ECEDEE;
+  --color-blanco: #FFFFFF;
+  --boton_learn: #F96D6F;
+  --boton_content: #39466C;
+  --degradado_amalila: linear-gradient(270deg, #EAD0F7 0%, #FAF4E5 45.55%);
+}
 
 /* ******************************** */
+
+body {
+
+  background-color: var(--color-fondo);
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.container {
+
+  background-color: var(--color-blanco);
+  border-radius: 25px;
+  max-width: 656px;
+  max-height: 906px;
+
+}
+
+.banner {
+
+  background: var(--degradado_amalila);
+  padding: 59px;
+
+  & .boton1 {
+
+    border-radius: 25px;
+    background-color: #F96D6F;
+    width: 188px;
+    height: 50px; 
+    color: var(--color-blanco);
+    text-align: center;
+    padding: 10px;
+
+  }
+
+  .central_text {
+
+    
+  }
+}
+
